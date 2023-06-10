@@ -58,8 +58,10 @@ body{
   padding-top: 100px;}
 /*istendiği body'e padding ekleyerek içeriklerin navbarın altında kalması engellendi*/
 
-.card{margin-top: .5rem;}
+.card{margin-top: .5rem; background-color: white;}
 /*bütün cardların üst kımında mt-2 olması sağlandı. mt-2 0.5 rem'e denk gelir.*/
+
+.card-header, .card-footer{background-color: white;}
 
 .storytext{display:flex; width:40px; margin-left: 8px; overflow:hidden; text-overflow:ellipsis; white-space: nowrap;}
 .storytext:hover{overflow:visible}
@@ -74,3 +76,9 @@ body{
 }
 
 /*list-group'a düzenleme yaparak border kaldırıldı.*/
+
+
+.sticksidebar, .rightpanel{
+  background-color: white;
+  border-style: none;
+}
