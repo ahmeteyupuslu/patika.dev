@@ -1,0 +1,11 @@
+en soldan başlarsak:
+		
+	7,5,1,3,6,0,4,2
+	7 root
+(sol:5,1,3,6,0,4,2		sağ:8,9)
+	5 root				8 root
+(sol:1,3,0,4,2 sağ:6)				(sağ:9)
+	1 root
+(sol:0 sağ:3,4,2)
+	3 root
+(sol:2 sağ:4)
