@@ -1,4 +1,4 @@
-###State Nedir? Nasıl oluşturulur?
+### State Nedir? Nasıl oluşturulur?
 
 ```js
 import {userState} from "react";
@@ -22,7 +22,7 @@ function App(){
 export default App;
 ```
 
-###Array State
+### Array State
 ekleme yaparken öncelikle array olduğunu unutmamak lazım. ayrıca öncekilerin de silinmemesi için ...friends kullandık.
 
 ```js
@@ -56,6 +56,6 @@ function App(){
 export default App;
 ```
 
-###Object States
+### Object States
 
 
