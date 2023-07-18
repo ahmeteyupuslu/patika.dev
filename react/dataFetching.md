@@ -56,9 +56,9 @@ function Users(){
 export default Users;
 ```
 
-native future ile yaptığımız şeyler başka kütüphaneler kurarak da yapabiliriz. bunlardan en çok bilinenlerden biri axios. 
-peki ne farkı var? bunlardan biri, doğrudan body obje ile dönebilir .json kullanmaya gerek kalmaz.
-daha fazlası için => https://www.geeksforgeeks.org/difference-between-fetch-and-axios-js-for-making-http-requests
+native future ile yaptığımız şeyler başka kütüphaneler kurarak da yapabiliriz. bunlardan en çok bilinenlerden biri axios. <br>
+peki ne farkı var? bunlardan biri, doğrudan body obje ile dönebilir .json kullanmaya gerek kalmaz. <br>
+daha fazlası için ![LİNK] (https://www.geeksforgeeks.org/difference-between-fetch-and-axios-js-for-making-http-requests)
 ```javascript
 import axis from 'axios'
 
