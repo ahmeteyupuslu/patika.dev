@@ -18,10 +18,12 @@ function AppFooter({
     });
     setCounter(count);
   });
+  //yapılmayan todoları saymak için hazırlanan counter.
 
   const deleteAllHandler = () => {
     setTodos(todos.filter((todo) => !todo.isCompleted));
   };
+  //tamamlanan todoların temizlenmesi için kullanılan const
 
   return (
     <div>

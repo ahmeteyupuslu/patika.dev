@@ -8,6 +8,7 @@ function List({ todos, setTodos, filter }) {
       )
     );
   };
+  //todoların solundaki butona tıklayarak tamamlandı tamamlanmadı seçimi için kullanılan const.
 
   const allCompleteHandler = () => {
     setTodos(
@@ -16,10 +17,12 @@ function List({ todos, setTodos, filter }) {
       )
     );
   };
+  //todoların eklendiği kutunun solundaki okun bütün todoların tamamlandı olarak işaretlenmesini sağlar.
 
   const deleteHandler = (id) => {
     setTodos(todos.filter((todo) => todo.id !== id));
   };
+  //todonun sağındaki çarpı işareti o to-do id'sine sahip todonun silinmesini sağlar.
 
   const filtered = todos.filter((todo) => {
     if (filter === "all") {
@@ -30,6 +33,7 @@ function List({ todos, setTodos, filter }) {
       return !todo.isCompleted;
     }
   });
+  //appfooter.js içinde oluşturulan all,active,completed seçenekleri ile  filter değeri ayarlanır ve gösterecek todoları ekrana getirir.
 
   return (
     <div>

@@ -2,7 +2,7 @@ import React, { Component } from "react";
 
 function Footer() {
   return (
-    <footer class="info">
+    <footer className="info">
       <p>Click to edit a todo</p>
       <p>
         Created by <a href="https://d12n.me/">Dmitry Sharabin</a>
@@ -13,5 +13,6 @@ function Footer() {
     </footer>
   );
 }
+//benzeri hazırlanan projenin footer kısmı hazırlandı.
 
 export default Footer;
